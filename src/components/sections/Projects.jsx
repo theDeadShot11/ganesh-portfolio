@@ -37,7 +37,7 @@ export default function Projects() {
           What I've <span className="text-gradient">built & analysed.</span>
         </SectionHeading>
         <p className="font-body text-text-secondary max-w-xl mb-12">
-          A mix of capstone analytics work, live product delivery, and strategic consulting — each grounded in real data and real outcomes.
+          A mix of capstone analytics work, live product delivery, and strategic consulting - each grounded in real data and real outcomes.
         </p>
       </motion.div>
 

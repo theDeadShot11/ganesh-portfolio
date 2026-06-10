@@ -17,7 +17,7 @@ export default function Education() {
           <span className="text-gradient">built to lead.</span>
         </SectionHeading>
         <p className="font-body text-text-secondary max-w-xl mb-12">
-          An engineering foundation sharpened by postgraduate business analytics — each step a deliberate investment in techno-functional capability.
+          An engineering foundation sharpened by postgraduate business analytics - each step a deliberate investment in techno-functional capability.
         </p>
       </motion.div>
 

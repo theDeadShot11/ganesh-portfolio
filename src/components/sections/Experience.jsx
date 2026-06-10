@@ -24,7 +24,7 @@ export default function Experience() {
           Where I've <span className="text-gradient">delivered.</span>
         </SectionHeading>
         <p className="font-body text-text-secondary max-w-xl mb-12">
-          From enterprise-scale platform delivery at Jio Platforms to functional consulting and product leadership — a deliberate path toward techno-functional roles.
+          From enterprise-scale platform delivery at Jio Platforms to functional consulting and product leadership - a deliberate path toward techno-functional roles.
         </p>
       </motion.div>
 

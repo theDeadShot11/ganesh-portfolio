@@ -24,7 +24,7 @@ export default function Skills() {
           <span className="text-gradient">to the table.</span>
         </SectionHeading>
         <p className="font-body text-text-secondary max-w-xl mb-12">
-          Three interconnected skill clusters — bridging business requirements, data analysis, and technical execution.
+          Three interconnected skill clusters - bridging business requirements, data analysis, and technical execution.
         </p>
       </motion.div>
 

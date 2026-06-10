@@ -3,10 +3,10 @@
     "name": "Ganesh Yadava",
     "role": "Techno-Functional Analyst",
     "subRole": "MSc Business Analytics",
-    "tagline": "Bridging strategy, data, and delivery — from requirements to results.",
+    "tagline": "Bridging strategy, data, and delivery - from requirements to results.",
     "location": "Mumbai | Ireland/Remote",
     "available": true,
-    "availabilityNote": "Open to full-time roles in business analysis, functional consulting, or analytics — Mumbai, Ireland, or remote."
+    "availabilityNote": "Open to full-time roles in business analysis, functional consulting, or analytics  -  Mumbai, Ireland, or remote."
   },
 
   "contact": {
@@ -18,8 +18,8 @@
 
   "about": {
     "paragraphs": [
-      "I'm an analytically driven professional with a background in software engineering and a postgraduate specialisation in business analytics. I translate between two worlds — the technical and the strategic — helping organisations move faster and decide smarter.",
-      "After two years delivering platform modernisation at Jio Platforms, one of India's largest telecom groups, I pursued an MSc in Business Analytics at NUI Galway — sharpening my ability to model decisions, design KPI frameworks, and lead data-informed consulting engagements.",
+      "I'm an analytically driven professional with a background in software engineering and a postgraduate specialisation in business analytics. I translate between two worlds - the technical and the strategic - helping organisations move faster and decide smarter.",
+      "After two years delivering platform modernisation at Jio Platforms, one of India's largest telecom groups, I pursued an MSc in Business Analytics at NUI Galway - sharpening my ability to model decisions, design KPI frameworks, and lead data-informed consulting engagements.",
       "Today I lead functional and analytical work on a live athlete performance platform, while taking on consulting projects that span operational analysis, process improvement, and digital strategy."
     ],
     "stats": [
@@ -85,7 +85,7 @@
       "headline": "Leading functional delivery for a live athlete performance analytics platform.",
       "bullets": [
         "Lead requirements gathering sessions with cross-functional stakeholders, translating business needs into structured technical deliverables.",
-        "Manage end-to-end project lifecycle using Agile methodology — planning, prototyping, testing, deployment, and documentation.",
+        "Manage end-to-end project lifecycle using Agile methodology - planning, prototyping, testing, deployment, and documentation.",
         "Produce functional specifications, process documentation, and project tracking artefacts.",
         "Drive iterative product improvements through analytics-led decision-making."
       ]
@@ -115,10 +115,10 @@
       "period": "Sep 2022 – Aug 2024",
       "type": "Full-time",
       "current": false,
-      "headline": "Cross-functional delivery at enterprise scale — one of India's largest technology platforms.",
+      "headline": "Cross-functional delivery at enterprise scale  -  one of India's largest technology platforms.",
       "bullets": [
         "Collaborated with product and engineering teams to gather and document functional requirements during large-scale platform modernisation.",
-        "Conducted application log analysis and performance diagnostics — delivering a 30% improvement in load performance and a 25% reduction in crash rates.",
+        "Conducted application log analysis and performance diagnostics - delivering a 30% improvement in load performance and a 25% reduction in crash rates.",
         "Acted as a functional bridge between stakeholder requirements and engineering implementation across Agile delivery cycles.",
         "Contributed to a 15% improvement in user satisfaction scores through structured issue tracking and process documentation.",
         "Built stakeholder communication and requirement-management skills through active participation in product enhancement discussions."
@@ -153,7 +153,7 @@
         "id": "athlete-platform",
         "title": "Athlete Performance Analytics Platform",
         "label": "Live Project · Platform Analytics · Agile Delivery",
-        "description": "Leading functional analysis and project delivery for a real-time athlete performance monitoring platform — responsible for requirements, documentation, and analytics-driven product iteration.",
+        "description": "Leading functional analysis and project delivery for a real-time athlete performance monitoring platform  -  responsible for requirements, documentation, and analytics-driven product iteration.",
         "tools": ["Agile", "Firebase", "Analytics", "Functional Specs"],
         "outcomes": "Live platform in active development with measurable performance monitoring capabilities.",
         "isLive": true
@@ -164,7 +164,7 @@
         "id": "facial-recognition-voting",
         "title": "Facial Recognition Voting System",
         "label": "Security · Computer Vision · BE Project",
-        "description": "Secure digital voting system using facial recognition for voter identity verification — combining computer vision with process integrity requirements.",
+        "description": "Secure digital voting system using facial recognition for voter identity verification  -  combining computer vision with process integrity requirements.",
         "tools": ["Python", "OpenCV", "Machine Learning"]
       },
       {
@@ -199,7 +199,7 @@
       "shortName": "NUI Galway",
       "location": "Ireland",
       "period": "2024 – 2025",
-      "framing": "A deliberate post-engineering move — deepening expertise in financial analysis, predictive modelling, big data, and strategic decision-making.",
+      "framing": "A deliberate post-engineering move  -  deepening expertise in financial analysis, predictive modelling, big data, and strategic decision-making.",
       "modules": [
         "Financial Analysis",
         "Strategic Management",
