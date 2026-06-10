@@ -1,0 +1,1 @@
+This project is as simple as the name suggests . Its my actual Virtual CV made because I feel recruiters dont take a look at out CVs the AI just rejects them . Instead I found a way to mail recruiters the link and let them decide the further details . Basically a hook for my CV
