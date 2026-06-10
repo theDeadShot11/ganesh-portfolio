@@ -10,6 +10,26 @@ const floatTransition = {
   ease: "easeInOut",
 };
 
+function SkillBar({ label, value }) {
+  return (
+    <div className="mt-3">
+      <div className="mb-1 flex items-center justify-between text-xs text-emerald-100/65">
+        <span>{label}</span>
+      </div>
+
+      <div className="h-1.5 overflow-hidden rounded-full bg-emerald-950/80">
+        <motion.div
+          className="h-full rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.45)]"
+          initial={{ width: 0 }}
+          whileInView={{ width: `${value}%` }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.2, ease: "easeOut" }}
+        />
+      </div>
+    </div>
+  );
+}
+
 export default function Avatar() {
   const [imageFailed, setImageFailed] = useState(false);
 
@@ -20,7 +40,7 @@ export default function Avatar() {
         className="absolute h-[440px] w-[440px] rounded-full bg-emerald-500/10 blur-3xl"
         animate={{
           scale: [1, 1.08, 1],
-          opacity: [0.35, 0.6, 0.35],
+          opacity: [0.32, 0.58, 0.32],
         }}
         transition={{
           duration: 7,
@@ -69,9 +89,9 @@ export default function Avatar() {
           <motion.img
             src={IMAGE_SRC}
             alt="Premium techno-functional analyst avatar"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover object-center"
             onError={() => setImageFailed(true)}
-            animate={{ scale: [1, 1.035, 1] }}
+            animate={{ scale: [1, 1.022, 1] }}
             transition={{
               duration: 9,
               repeat: Infinity,
@@ -94,26 +114,21 @@ export default function Avatar() {
           </div>
         )}
 
-        {/* Dark premium overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/10" />
-
-        {/* Green edge highlight */}
+        {/* Premium frame overlays */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/38 via-transparent to-black/10" />
         <div className="absolute inset-0 rounded-[2rem] ring-1 ring-inset ring-emerald-300/10" />
 
-        {/* Bottom identity strip */}
-        <div className="absolute bottom-0 left-0 right-0 border-t border-emerald-400/10 bg-black/45 px-5 py-4 backdrop-blur-xl">
-          <p className="text-xs uppercase tracking-[0.26em] text-emerald-300/70">
-            Techno-Functional Analyst
-          </p>
-          <p className="mt-1 text-sm text-emerald-50/65">
-            Strategy → Data → Delivery
+        {/* Clean bottom label */}
+        <div className="absolute bottom-0 left-0 right-0 border-t border-emerald-400/10 bg-black/42 px-5 py-3 backdrop-blur-md">
+          <p className="text-xs uppercase tracking-[0.24em] text-emerald-300/70">
+            Strategy · Data · Delivery
           </p>
         </div>
       </motion.div>
 
-      {/* Availability badge */}
+      {/* Available badge - moved away from face */}
       <motion.div
-        className="absolute left-0 top-16 z-20 rounded-2xl border border-emerald-400/20 bg-[#07100C]/80 px-4 py-3 text-sm text-emerald-300 shadow-[0_0_35px_rgba(34,197,94,0.14)] backdrop-blur-xl"
+        className="absolute -left-2 top-14 z-30 rounded-2xl border border-emerald-400/20 bg-[#07100C]/85 px-4 py-3 text-sm text-emerald-300 shadow-[0_0_35px_rgba(34,197,94,0.14)] backdrop-blur-xl"
         animate={{ y: [-7, 8, -7] }}
         transition={floatTransition}
       >
@@ -123,9 +138,9 @@ export default function Avatar() {
         </div>
       </motion.div>
 
-      {/* Impact card */}
+      {/* Impact card - right side, not on face */}
       <motion.div
-        className="absolute -right-16 top-20 z-20 w-44 rounded-3xl border border-emerald-400/20 bg-[#07100C]/80 p-4 shadow-[0_0_45px_rgba(34,197,94,0.14)] backdrop-blur-xl"
+        className="absolute -right-10 top-24 z-30 w-44 rounded-3xl border border-emerald-400/20 bg-[#07100C]/82 p-4 shadow-[0_0_45px_rgba(34,197,94,0.14)] backdrop-blur-xl"
         animate={{ y: [8, -8, 8] }}
         transition={{ ...floatTransition, duration: 6.5 }}
       >
@@ -133,15 +148,13 @@ export default function Avatar() {
           Impact
         </p>
 
-        <div className="mt-2 flex items-end gap-2">
-          <span className="text-4xl font-semibold text-emerald-400">30%</span>
-          <span className="pb-1 text-sm text-emerald-100/55">
-            faster load
-          </span>
+        <div className="mt-3 flex items-center gap-2 text-sm text-emerald-100/70">
+          <span className="h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.55)]" />
+          <span>High-impact delivery</span>
         </div>
 
-        <div className="mt-3 flex items-end gap-1.5">
-          {[32, 46, 58, 42, 64, 78].map((height, index) => (
+        <div className="mt-4 flex items-end gap-1.5">
+          {[28, 38, 50, 42, 62, 74].map((height, index) => (
             <motion.span
               key={index}
               className="w-3 rounded-full bg-emerald-400/40"
@@ -158,44 +171,25 @@ export default function Avatar() {
         </div>
       </motion.div>
 
-      {/* Core stack card */}
+      {/* Core strengths card - older design with filled bars */}
       <motion.div
-        className="absolute -bottom-2 -left-10 z-20 w-56 rounded-3xl border border-emerald-400/20 bg-[#07100C]/80 p-4 shadow-[0_0_45px_rgba(34,197,94,0.14)] backdrop-blur-xl"     
-         animate={{ y: [7, -8, 7] }}
+        className="absolute -bottom-4 -left-8 z-30 w-60 rounded-3xl border border-emerald-400/20 bg-[#07100C]/84 p-4 shadow-[0_0_45px_rgba(34,197,94,0.14)] backdrop-blur-xl"
+        animate={{ y: [7, -8, 7] }}
         transition={{ ...floatTransition, duration: 5.8 }}
       >
         <p className="text-xs uppercase tracking-[0.25em] text-emerald-200/45">
-          Core Stack
+          Core Strengths
         </p>
 
-        {[
-          ["Business Analysis", "92%"],
-          ["Analytics", "88%"],
-          ["Delivery", "84%"],
-        ].map(([label, value]) => (
-          <div key={label} className="mt-3">
-            <div className="mb-1 flex justify-between text-xs text-emerald-100/60">
-              <span>{label}</span>
-              <span>{value}</span>
-            </div>
-
-            <div className="h-1.5 overflow-hidden rounded-full bg-emerald-950/80">
-              <motion.div
-                className="h-full rounded-full bg-emerald-400"
-                initial={{ width: 0 }}
-                whileInView={{ width: value }}
-                viewport={{ once: true }}
-                transition={{ duration: 1.2, ease: "easeOut" }}
-              />
-            </div>
-          </div>
-        ))}
+        <SkillBar label="Business Analysis" value={94} />
+        <SkillBar label="Analytics" value={90} />
+        <SkillBar label="Delivery" value={88} />
       </motion.div>
 
-      {/* Mission card */}
+      {/* Execution card - small side card */}
       <motion.div
-        className="absolute bottom-10 -right-14 z-20 rounded-2xl border border-emerald-400/15 bg-[#07100C]/75 px-4 py-3 backdrop-blur-xl"     
-         animate={{ x: [-5, 5, -5], y: [4, -4, 4] }}
+        className="absolute bottom-12 -right-8 z-30 rounded-2xl border border-emerald-400/15 bg-[#07100C]/78 px-4 py-3 shadow-[0_0_35px_rgba(34,197,94,0.1)] backdrop-blur-xl"
+        animate={{ x: [-5, 5, -5], y: [4, -4, 4] }}
         transition={{
           duration: 7,
           repeat: Infinity,
@@ -203,9 +197,17 @@ export default function Avatar() {
         }}
       >
         <p className="text-xs uppercase tracking-[0.22em] text-emerald-100/45">
-          Mission Efficiency
+          Execution
         </p>
-        <p className="mt-1 text-2xl font-semibold text-emerald-400">92.4%</p>
+
+        <div className="mt-3 space-y-2 text-sm text-emerald-100/65">
+          {["Plan", "Analyse", "Deliver"].map((item) => (
+            <div key={item} className="flex items-center gap-2">
+              <span className="h-2 w-2 rounded-full bg-emerald-400/80 shadow-[0_0_8px_rgba(52,211,153,0.45)]" />
+              <span>{item}</span>
+            </div>
+          ))}
+        </div>
       </motion.div>
 
       {/* Bottom shine */}
