@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "name": "Ganesh Yadava",
+    "role": "Techno-Functional Analyst",
+    "subRole": "MSc Business Analytics",
+    "tagline": "Bridging strategy, data, and delivery — from requirements to results.",
+    "location": "Mumbai | Ireland/Remote",
+    "available": true,
+    "availabilityNote": "Open to full-time roles in business analysis, functional consulting, or analytics — Mumbai, Ireland, or remote."
+  },
+
+  "contact": {
+    "email": "yadavaganesh11@gmail.com",
+    "phone": "+91 8369082464",
+    "linkedin": "https://www.linkedin.com/in/ganesh-yadava",
+    "resumePdf": "/resume.pdf"
+  },
+
+  "about": {
+    "paragraphs": [
+      "I'm an analytically driven professional with a background in software engineering and a postgraduate specialisation in business analytics. I translate between two worlds — the technical and the strategic — helping organisations move faster and decide smarter.",
+      "After two years delivering platform modernisation at Jio Platforms, one of India's largest telecom groups, I pursued an MSc in Business Analytics at NUI Galway — sharpening my ability to model decisions, design KPI frameworks, and lead data-informed consulting engagements.",
+      "Today I lead functional and analytical work on a live athlete performance platform, while taking on consulting projects that span operational analysis, process improvement, and digital strategy."
+    ],
+    "stats": [
+      { "value": "2+", "label": "Years @ Jio Platforms", "sub": "Enterprise Scale" },
+      { "value": "MSc", "label": "Business Analytics", "sub": "NUI Galway, Ireland" },
+      { "value": "Open", "label": "To New Roles", "sub": "Mumbai | Ireland/Remote" }
+    ]
+  },
+
+  "skills": [
+    {
+      "cluster": "Business Analysis & Consulting",
+      "icon": "briefcase",
+      "items": [
+        "Requirements Gathering",
+        "Process Mapping (As-Is/To-Be)",
+        "Gap Analysis",
+        "Functional Specifications",
+        "User Stories",
+        "UAT Support",
+        "Stakeholder Management"
+      ]
+    },
+    {
+      "cluster": "Data & Analytics",
+      "icon": "chart",
+      "items": [
+        "SQL",
+        "Python",
+        "Tableau",
+        "Power BI",
+        "Excel",
+        "KPI Reporting",
+        "Predictive Analytics",
+        "Data Visualisation"
+      ]
+    },
+    {
+      "cluster": "Technology & Delivery",
+      "icon": "code",
+      "items": [
+        "Agile / SDLC",
+        "API Integrations",
+        "Java",
+        "Kotlin",
+        "Firebase",
+        "Git",
+        "Technical Documentation",
+        "Project Lifecycle Management"
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "id": "grind-gear",
+      "role": "Technical Lead & Functional Analyst",
+      "company": "Grind Gear Tech",
+      "location": "Mumbai",
+      "period": "Jan 2026 – Present",
+      "type": "Current Venture / Product Leadership",
+      "current": true,
+      "headline": "Leading functional delivery for a live athlete performance analytics platform.",
+      "bullets": [
+        "Lead requirements gathering sessions with cross-functional stakeholders, translating business needs into structured technical deliverables.",
+        "Manage end-to-end project lifecycle using Agile methodology — planning, prototyping, testing, deployment, and documentation.",
+        "Produce functional specifications, process documentation, and project tracking artefacts.",
+        "Drive iterative product improvements through analytics-led decision-making."
+      ]
+    },
+    {
+      "id": "freelance-consult",
+      "role": "Business Consultant",
+      "company": "Freelance Business Consulting Engagement",
+      "companyNote": "Private Client",
+      "location": "Mumbai",
+      "period": "Mar 2026 – May 2026",
+      "type": "Freelance",
+      "current": false,
+      "headline": "Operational analysis and process improvement for a private business client.",
+      "bullets": [
+        "Conducted end-to-end operational analysis to identify process bottlenecks affecting customer flow, service conversion, and revenue.",
+        "Delivered a structured business improvement report with KPI-backed recommendations.",
+        "Proposed data-driven digital customer retention strategies based on customer behaviour and service demand analysis."
+      ]
+    },
+    {
+      "id": "jio",
+      "role": "Software Development Engineer",
+      "company": "Jio Platforms Limited",
+      "companyNote": "JPL",
+      "location": "Mumbai",
+      "period": "Sep 2022 – Aug 2024",
+      "type": "Full-time",
+      "current": false,
+      "headline": "Cross-functional delivery at enterprise scale — one of India's largest technology platforms.",
+      "bullets": [
+        "Collaborated with product and engineering teams to gather and document functional requirements during large-scale platform modernisation.",
+        "Conducted application log analysis and performance diagnostics — delivering a 30% improvement in load performance and a 25% reduction in crash rates.",
+        "Acted as a functional bridge between stakeholder requirements and engineering implementation across Agile delivery cycles.",
+        "Contributed to a 15% improvement in user satisfaction scores through structured issue tracking and process documentation.",
+        "Built stakeholder communication and requirement-management skills through active participation in product enhancement discussions."
+      ],
+      "metrics": [
+        { "value": "30%", "label": "Load performance improvement" },
+        { "value": "25%", "label": "Crash rate reduction" },
+        { "value": "15%", "label": "User satisfaction uplift" }
+      ]
+    }
+  ],
+
+  "projects": {
+    "featured": [
+      {
+        "id": "burden-of-borrowing",
+        "title": "The Burden of Borrowing",
+        "label": "FinTech · Capstone · Predictive Analytics",
+        "description": "End-to-end financial risk analytics solution analysing customer borrowing behaviour and identifying high-risk lending profiles across a real-world financial dataset.",
+        "tools": ["Python", "Pandas", "Random Forest", "Tableau"],
+        "outcomes": "Segmented customers into three behavioural personas; delivered Tableau dashboards visualising risk patterns to enable targeted product recommendations and improved risk mitigation."
+      },
+      {
+        "id": "tesco-basket",
+        "title": "Tesco Market Basket Analytics",
+        "label": "Retail Analytics · Association Rule Mining",
+        "description": "Applied association rule mining on retail transaction datasets to uncover high-frequency product pairings and cross-selling opportunities for promotional bundle optimisation.",
+        "tools": ["Python", "SQL"],
+        "outcomes": "Identified actionable product pairing patterns directly informing promotional bundle strategy."
+      },
+      {
+        "id": "athlete-platform",
+        "title": "Athlete Performance Analytics Platform",
+        "label": "Live Project · Platform Analytics · Agile Delivery",
+        "description": "Leading functional analysis and project delivery for a real-time athlete performance monitoring platform — responsible for requirements, documentation, and analytics-driven product iteration.",
+        "tools": ["Agile", "Firebase", "Analytics", "Functional Specs"],
+        "outcomes": "Live platform in active development with measurable performance monitoring capabilities.",
+        "isLive": true
+      }
+    ],
+    "compact": [
+      {
+        "id": "facial-recognition-voting",
+        "title": "Facial Recognition Voting System",
+        "label": "Security · Computer Vision · BE Project",
+        "description": "Secure digital voting system using facial recognition for voter identity verification — combining computer vision with process integrity requirements.",
+        "tools": ["Python", "OpenCV", "Machine Learning"]
+      },
+      {
+        "id": "spotify-recommendation",
+        "title": "Spotify Recommendation System",
+        "label": "ML · Personalisation · Audio Analytics",
+        "description": "Music recommendation engine analysing listening patterns and audio features to generate personalised track suggestions.",
+        "tools": ["Python", "Spotify API", "Collaborative Filtering"]
+      },
+      {
+        "id": "market-entry-strategy",
+        "title": "Market Entry Strategy",
+        "label": "Business Strategy · Market Analysis",
+        "description": "Structured market entry strategy using competitive analysis, demand assessment, and go-to-market frameworks.",
+        "tools": ["Strategic Frameworks", "Excel", "Research"]
+      },
+      {
+        "id": "portfolio-optimisation",
+        "title": "Product Portfolio Optimisation",
+        "label": "Excel · KPI Analysis",
+        "description": "SKU-level profitability analysis identifying underperforming product segments, supporting inventory rationalisation and margin improvement.",
+        "tools": ["Excel", "KPI Frameworks"]
+      }
+    ]
+  },
+
+  "education": [
+    {
+      "id": "msc",
+      "degree": "MSc Business Analytics",
+      "institution": "National University of Ireland, Galway",
+      "shortName": "NUI Galway",
+      "location": "Ireland",
+      "period": "2024 – 2025",
+      "framing": "A deliberate post-engineering move — deepening expertise in financial analysis, predictive modelling, big data, and strategic decision-making.",
+      "modules": [
+        "Financial Analysis",
+        "Strategic Management",
+        "Decision Theory",
+        "Big Data (AWS)",
+        "Business Modelling",
+        "Applied Analytics"
+      ]
+    },
+    {
+      "id": "be",
+      "degree": "BE Information Technology",
+      "institution": "SIES Graduate School of Technology",
+      "location": "Mumbai",
+      "period": "2018 – 2022",
+      "cgpa": "8.74 / 10",
+      "modules": [
+        "DBMS",
+        "Data Structures",
+        "Software Engineering",
+        "Computer Networks"
+      ]
+    }
+  ],
+
+  "resume": {
+    "heading": "Preview or download my full CV.",
+    "pdfPath": "/resume.pdf"
+  },
+
+  "certifications": [
+    "Programming Foundations: Databases (SQL)",
+    "Programming Foundations: Data Structures",
+    "Git Essential Training"
+  ],
+
+  "achievements": [
+    {
+      "title": "Runner-up, Smart India Hackathon 2019",
+      "note": "National-level innovation competition"
+    },
+    {
+      "title": "40% fundraising increase",
+      "note": "Digital outreach strategy at Youth Empowerment Foundation"
+    }
+  ]
+}
